@@ -11,7 +11,7 @@ import (
 func main() {
 	r := gin.Default()
 	r.GET("/", func(c *gin.Context) {
-		c.JSON(http.StatusOK, gin.H{"message": "hello world"})
+		c.JSON(http.StatusOK, gin.H{"message": "hello xiang"})
 	})
 	r.Run(os.Getenv("APP_PORT"))
 }
